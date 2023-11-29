@@ -6,7 +6,7 @@ public class LoginTests extends BaseTests {
     @Test
     public void signIn(){
         loginPage.openLoginPage()
-                .enterNamePassword("demo","demo1234");
+                 .enterNamePassword("demo","demo1234");
         loginPage.clickButtonLogin();
 
 
